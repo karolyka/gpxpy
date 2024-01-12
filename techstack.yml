@@ -1,11 +1,12 @@
 repo_name: karolyka/gpxpy
 report_id: 40f3e152c78f57fa497c4cd59df7b1d2
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-22T09:25:34+00:00'
-requested_by: tkrajina
+timestamp: '2024-01-05T08:35:57+00:00'
+requested_by: karolyka
 provider: github
 branch: dev
-detected_tools_count: 3
+detected_tools_count: 5
 tools:
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -16,7 +17,20 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/karolyka/gpxpy
   detection_source: Repo Metadata
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/karolyka/gpxpy/blob/dev/LICENSE.txt
+  detection_source: LICENSE.txt
+  last_updated_by: Tomo Krajina
+  last_updated_on: 2012-01-17 18:12:15.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -25,6 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/karolyka/gpxpy
   detection_source: Repo Metadata
 - name: Travis CI
   description: A hosted continuous integration service for open source and private
@@ -35,6 +50,19 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/karolyka/gpxpy/blob/dev/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Hugo
   last_updated_on: 2018-08-13 14:36:19.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/karolyka/gpxpy/blob/dev/LICENSE.txt
+  detection_source: LICENSE.txt
+  last_updated_by: Tomo Krajina
+  last_updated_on: 2012-01-17 18:12:15.000000000 Z
